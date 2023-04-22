@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1039598331983-ls3t11v7b5ri4h12p7iipfa4e3gikl5c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1039598331983-ls3t11v7b5ri4h12p7iipfa4e3gikl5c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCelUJTjWWxV0409t3wHbq2rKYwSj2njBs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1039598331983</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.finesse-winery.app</string>
+	<key>PROJECT_ID</key>
+	<string>finesse-winery</string>
+	<key>STORAGE_BUCKET</key>
+	<string>finesse-winery.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1039598331983:ios:d3f95d1d18a54f7a55a23a</string>
+</dict>
+</plist>

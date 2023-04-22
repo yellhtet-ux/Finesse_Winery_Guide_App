@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267914A1E5DB8B754486B683 /* Pods_Finesse_WineryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85833ECFAE71B93942619335 /* Pods_Finesse_WineryTests.framework */; };
+		57D133FAEF985CF33DE0B3AA /* Pods_Finesse_Winery_Finesse_WineryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E95844C16301056639AC97 /* Pods_Finesse_Winery_Finesse_WineryUITests.framework */; };
+		7C3C4F25B0144FB7BF989D23 /* Pods_Finesse_Winery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50E25197E5D95D437C7C8C5 /* Pods_Finesse_Winery.framework */; };
+		7E78F46E29F289E700D19C8B /* WineAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78F46D29F289E700D19C8B /* WineAPIData.swift */; };
+		7E78F47029F29F8100D19C8B /* WineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78F46F29F29F8100D19C8B /* WineManager.swift */; };
+		7E78F47629F3B48200D19C8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78F47529F3B48200D19C8B /* HomeViewController.swift */; };
+		7E7A069829EED6C20090CC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A069729EED6C20090CC41 /* AppDelegate.swift */; };
+		7E7A069A29EED6C20090CC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A069929EED6C20090CC41 /* SceneDelegate.swift */; };
+		7E7A069C29EED6C20090CC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A069B29EED6C20090CC41 /* ViewController.swift */; };
+		7E7A069F29EED6C20090CC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A069D29EED6C20090CC41 /* Main.storyboard */; };
+		7E7A06A129EED6C30090CC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A06A029EED6C30090CC41 /* Assets.xcassets */; };
+		7E7A06A429EED6C30090CC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A06A229EED6C30090CC41 /* LaunchScreen.storyboard */; };
+		7E7A06AF29EED6C30090CC41 /* Finesse_WineryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A06AE29EED6C30090CC41 /* Finesse_WineryTests.swift */; };
+		7E7A06B929EED6C30090CC41 /* Finesse_WineryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A06B829EED6C30090CC41 /* Finesse_WineryUITests.swift */; };
+		7E7A06BB29EED6C30090CC41 /* Finesse_WineryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A06BA29EED6C30090CC41 /* Finesse_WineryUITestsLaunchTests.swift */; };
+		7EA291EF29F19D780027FB6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA291EE29F19D780027FB6C /* LoginViewController.swift */; };
+		7EA291F129F1A18D0027FB6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA291F029F1A18D0027FB6C /* GoogleService-Info.plist */; };
+		7EA291F529F1A6B80027FB6C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA291F429F1A6B80027FB6C /* Constant.swift */; };
+		7EA291F729F1A8030027FB6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA291F629F1A8030027FB6C /* SignUpViewController.swift */; };
+		7EA291F929F1AEAE0027FB6C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA291F829F1AEAE0027FB6C /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7A06AB29EED6C30090CC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7A068C29EED6C20090CC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7A069329EED6C20090CC41;
+			remoteInfo = "Finesse Winery";
+		};
+		7E7A06B529EED6C30090CC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7A068C29EED6C20090CC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7A069329EED6C20090CC41;
+			remoteInfo = "Finesse Winery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11C1C2FB7DE90E2A4EA7EEEB /* Pods-Finesse WineryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse WineryTests.debug.xcconfig"; path = "Target Support Files/Pods-Finesse WineryTests/Pods-Finesse WineryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E7972DD7C3539D04C5F00B8 /* Pods-Finesse Winery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse Winery.debug.xcconfig"; path = "Target Support Files/Pods-Finesse Winery/Pods-Finesse Winery.debug.xcconfig"; sourceTree = "<group>"; };
+		651055A6931421802789F496 /* Pods-Finesse Winery-Finesse WineryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse Winery-Finesse WineryUITests.release.xcconfig"; path = "Target Support Files/Pods-Finesse Winery-Finesse WineryUITests/Pods-Finesse Winery-Finesse WineryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E78F46D29F289E700D19C8B /* WineAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineAPIData.swift; sourceTree = "<group>"; };
+		7E78F46F29F29F8100D19C8B /* WineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineManager.swift; sourceTree = "<group>"; };
+		7E78F47529F3B48200D19C8B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E7A069429EED6C20090CC41 /* Finesse Winery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finesse Winery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7A069729EED6C20090CC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E7A069929EED6C20090CC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E7A069B29EED6C20090CC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E7A069E29EED6C20090CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7A06A029EED6C30090CC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7A06A329EED6C30090CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7A06A529EED6C30090CC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7A06AA29EED6C30090CC41 /* Finesse WineryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finesse WineryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7A06AE29EED6C30090CC41 /* Finesse_WineryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finesse_WineryTests.swift; sourceTree = "<group>"; };
+		7E7A06B429EED6C30090CC41 /* Finesse WineryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finesse WineryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7A06B829EED6C30090CC41 /* Finesse_WineryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finesse_WineryUITests.swift; sourceTree = "<group>"; };
+		7E7A06BA29EED6C30090CC41 /* Finesse_WineryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finesse_WineryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EA291EE29F19D780027FB6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7EA291F029F1A18D0027FB6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EA291F429F1A6B80027FB6C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7EA291F629F1A8030027FB6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7EA291F829F1AEAE0027FB6C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		85833ECFAE71B93942619335 /* Pods_Finesse_WineryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finesse_WineryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E95844C16301056639AC97 /* Pods_Finesse_Winery_Finesse_WineryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finesse_Winery_Finesse_WineryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50E25197E5D95D437C7C8C5 /* Pods_Finesse_Winery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finesse_Winery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC113E8E5C630F598509E5E /* Pods-Finesse WineryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse WineryTests.release.xcconfig"; path = "Target Support Files/Pods-Finesse WineryTests/Pods-Finesse WineryTests.release.xcconfig"; sourceTree = "<group>"; };
+		F548FAA9F9DF16D6D1E6FE07 /* Pods-Finesse Winery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse Winery.release.xcconfig"; path = "Target Support Files/Pods-Finesse Winery/Pods-Finesse Winery.release.xcconfig"; sourceTree = "<group>"; };
+		FDB24AC4C128D7A914EA0FCE /* Pods-Finesse Winery-Finesse WineryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finesse Winery-Finesse WineryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Finesse Winery-Finesse WineryUITests/Pods-Finesse Winery-Finesse WineryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7A069129EED6C20090CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3C4F25B0144FB7BF989D23 /* Pods_Finesse_Winery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06A729EED6C30090CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267914A1E5DB8B754486B683 /* Pods_Finesse_WineryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06B129EED6C30090CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D133FAEF985CF33DE0B3AA /* Pods_Finesse_Winery_Finesse_WineryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4DDC54A3369BB2DB72CAF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E50E25197E5D95D437C7C8C5 /* Pods_Finesse_Winery.framework */,
+				B5E95844C16301056639AC97 /* Pods_Finesse_Winery_Finesse_WineryUITests.framework */,
+				85833ECFAE71B93942619335 /* Pods_Finesse_WineryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7A068B29EED6C20090CC41 = {
+			isa = PBXGroup;
+			children = (
+				7E7A069629EED6C20090CC41 /* Finesse Winery */,
+				7E7A06AD29EED6C30090CC41 /* Finesse WineryTests */,
+				7E7A06B729EED6C30090CC41 /* Finesse WineryUITests */,
+				7E7A069529EED6C20090CC41 /* Products */,
+				B208FDAD04A76CCE3B4B6318 /* Pods */,
+				0B4DDC54A3369BB2DB72CAF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7A069529EED6C20090CC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A069429EED6C20090CC41 /* Finesse Winery.app */,
+				7E7A06AA29EED6C30090CC41 /* Finesse WineryTests.xctest */,
+				7E7A06B429EED6C30090CC41 /* Finesse WineryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7A069629EED6C20090CC41 /* Finesse Winery */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A069729EED6C20090CC41 /* AppDelegate.swift */,
+				7E7A069929EED6C20090CC41 /* SceneDelegate.swift */,
+				7E7A06C929EED7960090CC41 /* Model */,
+				7E7A06C729EED77D0090CC41 /* View */,
+				7E7A06C829EED7890090CC41 /* Controller */,
+				7E7A06A029EED6C30090CC41 /* Assets.xcassets */,
+				7E7A06A229EED6C30090CC41 /* LaunchScreen.storyboard */,
+				7E7A06A529EED6C30090CC41 /* Info.plist */,
+				7EA291F029F1A18D0027FB6C /* GoogleService-Info.plist */,
+			);
+			path = "Finesse Winery";
+			sourceTree = "<group>";
+		};
+		7E7A06AD29EED6C30090CC41 /* Finesse WineryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A06AE29EED6C30090CC41 /* Finesse_WineryTests.swift */,
+			);
+			path = "Finesse WineryTests";
+			sourceTree = "<group>";
+		};
+		7E7A06B729EED6C30090CC41 /* Finesse WineryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A06B829EED6C30090CC41 /* Finesse_WineryUITests.swift */,
+				7E7A06BA29EED6C30090CC41 /* Finesse_WineryUITestsLaunchTests.swift */,
+			);
+			path = "Finesse WineryUITests";
+			sourceTree = "<group>";
+		};
+		7E7A06C729EED77D0090CC41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A069D29EED6C20090CC41 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E7A06C829EED7890090CC41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A069B29EED6C20090CC41 /* ViewController.swift */,
+				7EA291EE29F19D780027FB6C /* LoginViewController.swift */,
+				7EA291F629F1A8030027FB6C /* SignUpViewController.swift */,
+				7EA291F829F1AEAE0027FB6C /* SearchViewController.swift */,
+				7E78F47529F3B48200D19C8B /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E7A06C929EED7960090CC41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E78F46D29F289E700D19C8B /* WineAPIData.swift */,
+				7E78F46F29F29F8100D19C8B /* WineManager.swift */,
+				7EA291F429F1A6B80027FB6C /* Constant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B208FDAD04A76CCE3B4B6318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7972DD7C3539D04C5F00B8 /* Pods-Finesse Winery.debug.xcconfig */,
+				F548FAA9F9DF16D6D1E6FE07 /* Pods-Finesse Winery.release.xcconfig */,
+				FDB24AC4C128D7A914EA0FCE /* Pods-Finesse Winery-Finesse WineryUITests.debug.xcconfig */,
+				651055A6931421802789F496 /* Pods-Finesse Winery-Finesse WineryUITests.release.xcconfig */,
+				11C1C2FB7DE90E2A4EA7EEEB /* Pods-Finesse WineryTests.debug.xcconfig */,
+				EBC113E8E5C630F598509E5E /* Pods-Finesse WineryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7A069329EED6C20090CC41 /* Finesse Winery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7A06BE29EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse Winery" */;
+			buildPhases = (
+				46032DA61CFE9B17396C7625 /* [CP] Check Pods Manifest.lock */,
+				7E7A069029EED6C20090CC41 /* Sources */,
+				7E7A069129EED6C20090CC41 /* Frameworks */,
+				7E7A069229EED6C20090CC41 /* Resources */,
+				9AA61D79CD3779DC92030858 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finesse Winery";
+			productName = "Finesse Winery";
+			productReference = 7E7A069429EED6C20090CC41 /* Finesse Winery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7A06A929EED6C30090CC41 /* Finesse WineryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7A06C129EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse WineryTests" */;
+			buildPhases = (
+				3459A8C1B05BAA67798AF9D8 /* [CP] Check Pods Manifest.lock */,
+				7E7A06A629EED6C30090CC41 /* Sources */,
+				7E7A06A729EED6C30090CC41 /* Frameworks */,
+				7E7A06A829EED6C30090CC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7A06AC29EED6C30090CC41 /* PBXTargetDependency */,
+			);
+			name = "Finesse WineryTests";
+			productName = "Finesse WineryTests";
+			productReference = 7E7A06AA29EED6C30090CC41 /* Finesse WineryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7A06B329EED6C30090CC41 /* Finesse WineryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7A06C429EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse WineryUITests" */;
+			buildPhases = (
+				AA51A0F9CE20BDB49A59B4DD /* [CP] Check Pods Manifest.lock */,
+				7E7A06B029EED6C30090CC41 /* Sources */,
+				7E7A06B129EED6C30090CC41 /* Frameworks */,
+				7E7A06B229EED6C30090CC41 /* Resources */,
+				43B8FA0C8DBB1B49B03DD964 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7A06B629EED6C30090CC41 /* PBXTargetDependency */,
+			);
+			name = "Finesse WineryUITests";
+			productName = "Finesse WineryUITests";
+			productReference = 7E7A06B429EED6C30090CC41 /* Finesse WineryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7A068C29EED6C20090CC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7E7A069329EED6C20090CC41 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7E7A06A929EED6C30090CC41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E7A069329EED6C20090CC41;
+					};
+					7E7A06B329EED6C30090CC41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E7A069329EED6C20090CC41;
+					};
+				};
+			};
+			buildConfigurationList = 7E7A068F29EED6C20090CC41 /* Build configuration list for PBXProject "Finesse Winery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7A068B29EED6C20090CC41;
+			productRefGroup = 7E7A069529EED6C20090CC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7A069329EED6C20090CC41 /* Finesse Winery */,
+				7E7A06A929EED6C30090CC41 /* Finesse WineryTests */,
+				7E7A06B329EED6C30090CC41 /* Finesse WineryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7A069229EED6C20090CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7A06A429EED6C30090CC41 /* LaunchScreen.storyboard in Resources */,
+				7EA291F129F1A18D0027FB6C /* GoogleService-Info.plist in Resources */,
+				7E7A06A129EED6C30090CC41 /* Assets.xcassets in Resources */,
+				7E7A069F29EED6C20090CC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06A829EED6C30090CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06B229EED6C30090CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3459A8C1B05BAA67798AF9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finesse WineryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B8FA0C8DBB1B49B03DD964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery-Finesse WineryUITests/Pods-Finesse Winery-Finesse WineryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery-Finesse WineryUITests/Pods-Finesse Winery-Finesse WineryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery-Finesse WineryUITests/Pods-Finesse Winery-Finesse WineryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46032DA61CFE9B17396C7625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finesse Winery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA61D79CD3779DC92030858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery/Pods-Finesse Winery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery/Pods-Finesse Winery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Finesse Winery/Pods-Finesse Winery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA51A0F9CE20BDB49A59B4DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finesse Winery-Finesse WineryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7A069029EED6C20090CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA291F729F1A8030027FB6C /* SignUpViewController.swift in Sources */,
+				7EA291F929F1AEAE0027FB6C /* SearchViewController.swift in Sources */,
+				7E78F47029F29F8100D19C8B /* WineManager.swift in Sources */,
+				7EA291EF29F19D780027FB6C /* LoginViewController.swift in Sources */,
+				7E78F46E29F289E700D19C8B /* WineAPIData.swift in Sources */,
+				7E78F47629F3B48200D19C8B /* HomeViewController.swift in Sources */,
+				7E7A069C29EED6C20090CC41 /* ViewController.swift in Sources */,
+				7EA291F529F1A6B80027FB6C /* Constant.swift in Sources */,
+				7E7A069829EED6C20090CC41 /* AppDelegate.swift in Sources */,
+				7E7A069A29EED6C20090CC41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06A629EED6C30090CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7A06AF29EED6C30090CC41 /* Finesse_WineryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7A06B029EED6C30090CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7A06BB29EED6C30090CC41 /* Finesse_WineryUITestsLaunchTests.swift in Sources */,
+				7E7A06B929EED6C30090CC41 /* Finesse_WineryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7A06AC29EED6C30090CC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7A069329EED6C20090CC41 /* Finesse Winery */;
+			targetProxy = 7E7A06AB29EED6C30090CC41 /* PBXContainerItemProxy */;
+		};
+		7E7A06B629EED6C30090CC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7A069329EED6C20090CC41 /* Finesse Winery */;
+			targetProxy = 7E7A06B529EED6C30090CC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7A069D29EED6C20090CC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7A069E29EED6C20090CC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7A06A229EED6C30090CC41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7A06A329EED6C30090CC41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7A06BC29EED6C30090CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E7A06BD29EED6C30090CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7A06BF29EED6C30090CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7972DD7C3539D04C5F00B8 /* Pods-Finesse Winery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Finesse Winery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Finnese Wine Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-Winery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7A06C029EED6C30090CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F548FAA9F9DF16D6D1E6FE07 /* Pods-Finesse Winery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Finesse Winery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Finnese Wine Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-Winery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E7A06C229EED6C30090CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C1C2FB7DE90E2A4EA7EEEB /* Pods-Finesse WineryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-WineryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finesse Winery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finesse Winery";
+			};
+			name = Debug;
+		};
+		7E7A06C329EED6C30090CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC113E8E5C630F598509E5E /* Pods-Finesse WineryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-WineryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finesse Winery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finesse Winery";
+			};
+			name = Release;
+		};
+		7E7A06C529EED6C30090CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB24AC4C128D7A914EA0FCE /* Pods-Finesse Winery-Finesse WineryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-WineryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finesse Winery";
+			};
+			name = Debug;
+		};
+		7E7A06C629EED6C30090CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651055A6931421802789F496 /* Pods-Finesse Winery-Finesse WineryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WCVXD5T4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yell-htet.Finesse-WineryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finesse Winery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7A068F29EED6C20090CC41 /* Build configuration list for PBXProject "Finesse Winery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7A06BC29EED6C30090CC41 /* Debug */,
+				7E7A06BD29EED6C30090CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7A06BE29EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse Winery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7A06BF29EED6C30090CC41 /* Debug */,
+				7E7A06C029EED6C30090CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7A06C129EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse WineryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7A06C229EED6C30090CC41 /* Debug */,
+				7E7A06C329EED6C30090CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7A06C429EED6C30090CC41 /* Build configuration list for PBXNativeTarget "Finesse WineryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7A06C529EED6C30090CC41 /* Debug */,
+				7E7A06C629EED6C30090CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7A068C29EED6C20090CC41 /* Project object */;
+}
