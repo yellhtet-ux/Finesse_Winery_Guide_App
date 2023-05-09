@@ -21,6 +21,8 @@ class SignUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //MARK - Register Your Account
+    
     @IBAction func signUpButtonPressed(_ sender: UIButton) {
         if let email = emailTextField.text, let password = passwordTextField.text {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in

@@ -8,7 +8,6 @@
 import UIKit
 import FirebaseAuth
 import FirebaseCore
-//import FirebaseAnalytics
 
 class SearchViewController: UIViewController {
     
@@ -26,6 +25,7 @@ class SearchViewController: UIViewController {
         imageView.contentMode = .scaleAspectFit;
     }
     
+    //MARK - Get Result when Search Button get pressed!
     
     @IBAction func searchButtonPressed(_ sender: UIButton) {
         guard let searchText = searchTextField.text else {return}
@@ -40,10 +40,14 @@ class SearchViewController: UIViewController {
         }
     }
     
+    //MARK - Get to the Home Page when Home Button get pressed
+    
     @IBAction func homeButtonPressed(_ sender: UIButton) {
         performSegue(withIdentifier: K.seagueIdentifier, sender: nil)
     }
     
+    
+    //MARK - Log Out Your Account
     @IBAction func logOutButtonPressed(_ sender: UIButton) {
         let firebaseAuth = Auth.auth()
         do {

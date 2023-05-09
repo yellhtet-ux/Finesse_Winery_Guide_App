@@ -7,6 +7,7 @@
 
 import Foundation
 
+//MARK - Constant Strings(Spelling might be wrong so this is the Constant)
 struct K {
     static var loginIdentifier = "Login";
     static var signinIdentifier = "Signup";

@@ -24,11 +24,12 @@ class HomeViewController: UIViewController {
         tableView.separatorStyle = .singleLine;
     }
     
+    //MARK - Heading to the Search Page
     @IBAction func searchButtonPressed(_ sender: UIButton) {
         performSegue(withIdentifier: K.seagueIdentifier, sender: nil)
     }
     
-    
+    //MARK - Log Out Your Account
     @IBAction func logOutButtonPressed(_ sender: UIButton) {
         let firebaseAuth = Auth.auth()
         do {
@@ -42,6 +43,7 @@ class HomeViewController: UIViewController {
     
 }
 
+//MARK - Table View Setting 
 extension HomeViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -18,6 +18,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    //MARK - Login Your Account
+    
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         if let email = emailTextField.text , let password = passwordTextField.text {
             Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
