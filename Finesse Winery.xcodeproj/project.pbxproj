@@ -176,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				7E7A069D29EED6C20090CC41 /* Main.storyboard */,
+				7E7A069B29EED6C20090CC41 /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,7 +184,6 @@
 		7E7A06C829EED7890090CC41 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7E7A069B29EED6C20090CC41 /* ViewController.swift */,
 				7EA291EE29F19D780027FB6C /* LoginViewController.swift */,
 				7EA291F629F1A8030027FB6C /* SignUpViewController.swift */,
 				7EA291F829F1AEAE0027FB6C /* SearchViewController.swift */,

@@ -20,6 +20,8 @@ class HomeViewController: UIViewController {
         navigationItem.title = "Wine Lists";
         navigationItem.hidesBackButton = true;
         tableView.dataSource = self
+        tableView.separatorColor = .black;
+        tableView.separatorStyle = .singleLine;
     }
     
     @IBAction func searchButtonPressed(_ sender: UIButton) {
@@ -41,6 +43,7 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        return wineList.main_List.count
     }
