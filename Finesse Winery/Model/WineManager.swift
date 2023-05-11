@@ -13,9 +13,11 @@ struct WineManager  {
     var image : UIImage?
     var text : String?
     
+    typealias NetworkingResultData = (WineData) -> Void
+    
     //MARK - Fetching Wines Data Process
     
-    mutating func fetchWineData (completion: @escaping (WineData) -> Void) {
+    mutating func fetchWineData (completion: @escaping NetworkingResultData) {
         guard let searchText = text else {return}
         let mainURL = "https://api.spoonacular.com/food/wine/recommendation?apiKey=\(K.apiKey)&wine=\(searchText)"
         guard let url = URL(string: mainURL) else {return}
